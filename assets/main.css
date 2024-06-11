@@ -6,3 +6,13 @@
 .docs-aside-tree li.bordered.active{
     border-color: var(--color-gray-900)!important;
 }
+.request-identifier{
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius:4px;
+    color: rgb(21 128 61);
+    font-weight: 500;
+    background-color: rgb(240 253 244);
+    box-shadow: 0 0 1px 1px rgba(22,163,74,.2);
+    margin-right: 10px;
+}
