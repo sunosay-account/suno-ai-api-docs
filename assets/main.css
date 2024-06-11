@@ -1,0 +1,8 @@
+.docs-aside-tree .link.active{
+    color: var(--color-gray-900)!important;
+    font-weight: 600;
+}
+
+.docs-aside-tree li.bordered.active{
+    border-color: var(--color-gray-900)!important;
+}
