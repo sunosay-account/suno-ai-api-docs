@@ -14,5 +14,20 @@
     font-weight: 500;
     background-color: rgb(240 253 244);
     box-shadow: 0 0 1px 1px rgba(22,163,74,.2);
-    margin-right: 10px;
+}
+
+.request-box{
+    display: flex;
+    gap: 0.5rem;
+}
+
+@media (max-width: 500px) {
+
+    .request-url code{
+        font-size: 10.8px!important;
+    }
+    .request-identifier{
+        font-size: 9px;
+        padding: 4px 8px;
+    }
 }

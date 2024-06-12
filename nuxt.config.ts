@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   extends: ['@nuxt-themes/docus'],
   devtools: { enabled: true },
   css: [  
-    './assets/main.css' // 路径前的 '@' 表示 `src/` 目录  
+    './assets/main.css'
   ],
   modules: [
     // Remove it if you don't use Plausible analytics
