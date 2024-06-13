@@ -31,3 +31,7 @@
         padding: 4px 8px;
     }
 }
+
+.container{
+    max-width:90rem!important;
+}
