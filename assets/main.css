@@ -35,3 +35,25 @@
 .container{
     max-width:90rem!important;
 }
+h1{
+    font-size: var(--prose-h2-fontSize)!important;
+}
+
+h2{
+    font-size: var(--prose-h3-fontSize)!important;
+}
+
+h3{
+    font-size: var(--prose-h4-fontSize)!important;
+}
+
+h4{
+    font-size: var(--prose-h5-fontSize)!important;
+}
+
+h5{
+    font-size: var(--prose-h6-fontSize)!important;
+}
+h6{
+    font-size: .875rem!important;
+}
