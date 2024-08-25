@@ -3,7 +3,7 @@ export default defineAppConfig({
   docus: {
     title: 'Suno Api Docs',
     description: 'The best place to start your documentation.',
-    image: './public/favicon.ico',
+    image: 'favicon.ico',
     aside: {
       level: 0,
       collapsed: false,
@@ -14,10 +14,14 @@ export default defineAppConfig({
       fluid: true
     },
     header: {
-      logo: true,
+      logo: false,
+      title: 'Suno Api Docs',
       showLinkIcon: true,
       exclude: [],
       fluid: true
+    },
+    footer: {
+      
     }
   }
 })
