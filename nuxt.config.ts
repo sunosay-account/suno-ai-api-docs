@@ -1,6 +1,5 @@
 export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
-  compatibilityDate: '2024-08-12',
   extends: ['@nuxt-themes/docus'],
   devtools: { enabled: true },
   css: [  
@@ -19,7 +18,7 @@ export default defineNuxtConfig({
   ],
   robots: {
     sitemap: ['sitemap.xml'],
-    disallow: ['/music/_dir','/_nuxt/']
+    disallow: ['music/_dir','_nuxt/']
   },
   ssr: true,
   sourcemap: false,
