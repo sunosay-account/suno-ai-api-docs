@@ -6,9 +6,32 @@ export default defineNuxtConfig({
   css: [  
     './assets/main.css'
   ],
+  routeRules: {
+    '/**' : {robots: true}
+  },
   modules: [
-    '@nuxtjs/plausible'
+    // Remove it if you don't use Plausible analytics
+    // https://github.com/nuxt-modules/plausible
+    '@nuxtjs/plausible',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
+    
   ],
-  sourcemap: false,
+  robots: {
+    sitemap: ['sitemap.xml'],
+    disallow: ['/music/_dir','/_nuxt/']
+  },
   ssr: true,
+  sourcemap: false,
+  site: {
+    url: 'https://docs.sunoapi.co',
+    trailingSlash: false,
+    name: 'Suno APi Docs',
+  },
+  sitemap: {
+    enabled: true,
+    xsl: false,
+    xslTips: false,
+    discoverImages: false,
+  },
 })
