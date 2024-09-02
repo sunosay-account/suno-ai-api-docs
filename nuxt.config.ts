@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   ],
   robots: {
     sitemap: ['sitemap.xml'],
-    disallow: ['music/_dir','_nuxt/']
+    disallow: ['music/_dir']
   },
   ssr: true,
   sourcemap: false,
