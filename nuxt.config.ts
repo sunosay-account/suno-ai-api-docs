@@ -13,13 +13,7 @@ export default defineNuxtConfig({
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
-    
   ],
-  robots: {
-    sitemap: ['sitemap.xml'],
-    disallow: ['music/_dir']
-  },
   ssr: true,
   sourcemap: false,
   site: {

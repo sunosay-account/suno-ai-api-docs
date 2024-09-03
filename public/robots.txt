@@ -1,0 +1,6 @@
+
+User-agent: *
+Allow: /
+Disallow: /music/_dir
+
+Sitemap: https://docs.sunoapi.co/sitemap.xml
