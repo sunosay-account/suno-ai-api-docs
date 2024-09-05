@@ -16,6 +16,10 @@
 .docs-aside-tree li.bordered.active{
     border-color: var(--color-gray-900)!important;
 }
+
+.docs-aside-tree .link{
+    font-weight: bold!important;
+}
 .request-identifier{
     font-size: 14px;
     padding: 4px 8px;
@@ -25,7 +29,6 @@
     background-color: rgb(240 253 244);
     box-shadow: 0 0 1px 1px rgba(22,163,74,.2);
 }
-
 .request-box{
     display: flex;
     gap: 0.5rem;
