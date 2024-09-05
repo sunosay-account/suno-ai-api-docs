@@ -21,9 +21,6 @@ importers:
       '@nuxt/eslint-config':
         specifier: ^0.3.13
         version: 0.3.13(eslint@9.4.0)(typescript@5.4.5)
-      '@nuxtjs/plausible':
-        specifier: ^1.0.0
-        version: 1.0.0(rollup@4.18.0)
       '@types/node':
         specifier: ^20.12.12
         version: 20.14.2
@@ -225,9 +222,6 @@ packages:
   '@babel/types@7.24.7':
     resolution: {integrity: sha512-XEFXSlxiG5td2EJRe8vOmRbaXVgfcBlszKujvVmWIK/UpywWljQCfzAv3RQCGujWQ1RD4YYWEAqDXfuJiy8f5Q==}
     engines: {node: '>=6.9.0'}
-
-  '@barbapapazes/plausible-tracker@0.4.0':
-    resolution: {integrity: sha512-4hhXK62ORb4feJfjnIILXRnb6xfejHM6yvGCid6MwNdKiQyj6YLW0M779zXLH5IBS4mQObmrNul2HUleeavSKw==}
 
   '@cloudflare/kv-asset-handler@0.3.2':
     resolution: {integrity: sha512-EeEjMobfuJrwoctj7FA1y1KEbM0+Q1xSjobIEyie9k4haVEBB7vkDvsasw1pM3rO39mL2akxIAzLMUAtrMHZhA==}
@@ -906,9 +900,6 @@ packages:
 
   '@nuxtjs/mdc@0.6.1':
     resolution: {integrity: sha512-zS5QK7DZ/SBrjqQX1DOy7GnxKy+wbj2+LvooefOWmQqHfLTAqJLVIjuv/BmKnQWiRCq19+uysys3iY42EoY5/A==}
-
-  '@nuxtjs/plausible@1.0.0':
-    resolution: {integrity: sha512-2K0/AbPJAEr3yMA8oDD0I6WB+SXs/YlF297azjR5eSZVQjuimDAwLf4bEXk9ilbrzoMFmm0Tpzn4CC6f0rISBA==}
 
   '@nuxtjs/sitemap@6.0.0-beta.4':
     resolution: {integrity: sha512-pNX7rzrk7DQOr2uWVdhhGJd5EUXcADPopA4ONRjsfOaCMJGN/LjzCjJhFvBCm+8nmnluCxJfZr9RMCDCEzSxBA==}
@@ -5621,8 +5612,6 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
 
-  '@barbapapazes/plausible-tracker@0.4.0': {}
-
   '@cloudflare/kv-asset-handler@0.3.2':
     dependencies:
       mime: 3.0.0
@@ -6581,15 +6570,6 @@ snapshots:
       unist-builder: 4.0.0
       unist-util-visit: 5.0.0
       unwasm: 0.3.9
-    transitivePeerDependencies:
-      - rollup
-      - supports-color
-
-  '@nuxtjs/plausible@1.0.0(rollup@4.18.0)':
-    dependencies:
-      '@barbapapazes/plausible-tracker': 0.4.0
-      '@nuxt/kit': 3.12.1(rollup@4.18.0)
-      defu: 6.1.4
     transitivePeerDependencies:
       - rollup
       - supports-color
