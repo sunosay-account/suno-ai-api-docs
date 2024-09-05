@@ -1,6 +1,16 @@
-.docs-aside-tree .link.active{
-    color: var(--color-gray-900)!important;
+
+.dark .docs-aside-tree .link.active{
+    color: white!important;
     font-weight: 600;
+}
+
+.docs-aside-tree .link.active{
+    color: black!important;
+    font-weight: 600;
+}
+
+.docs-toc-links a.active{
+    font-weight: bold!important;
 }
 
 .docs-aside-tree li.bordered.active{

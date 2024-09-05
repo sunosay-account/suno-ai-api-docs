@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   extends: ['@nuxt-themes/docus'],
   devtools: { enabled: true },
   modules: [
-    // Remove it if you don't use Plausible analytics
-    // https://github.com/nuxt-modules/plausible
-    '@nuxtjs/plausible',
     '@nuxtjs/sitemap',
   ],
   css: ['./assets/main.css'],
@@ -14,7 +11,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://docs.sunoapi.co',
     trailingSlash: false,
-    name: 'Suno APi Docs',
+    name: 'SunoAPI Docs',
   },
   sitemap: {
     enabled: true,

@@ -1,7 +1,7 @@
 // https://github.com/nuxt-themes/docus/blob/main/nuxt.schema.ts
 export default defineAppConfig({
   docus: {
-    title: 'Suno Api Docs',
+    title: 'SunoAPI Docs',
     description: 'The best place to start your documentation.',
     image: 'favicon.ico',
     aside: {
@@ -15,7 +15,7 @@ export default defineAppConfig({
     },
     header: {
       logo: false,
-      title: 'Suno Api Docs',
+      title: 'Suno API Docs',
       showLinkIcon: true,
       exclude: [],
       fluid: true
