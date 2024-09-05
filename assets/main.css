@@ -1,12 +1,12 @@
 
 .dark .docs-aside-tree .link.active{
     color: white!important;
-    font-weight: 600;
+    font-weight: bold!important;
 }
 
 .docs-aside-tree .link.active{
     color: black!important;
-    font-weight: 600;
+    font-weight: bold!important;
 }
 
 .docs-toc-links a.active{
@@ -17,11 +17,11 @@
     border-color: var(--color-gray-900)!important;
 }
 .request-identifier{
-    font-size: 12px;
+    font-size: 14px;
     padding: 4px 8px;
     border-radius:4px;
     color: rgb(21 128 61);
-    font-weight: 500;
+    font-weight: bold!important;
     background-color: rgb(240 253 244);
     box-shadow: 0 0 1px 1px rgba(22,163,74,.2);
 }
