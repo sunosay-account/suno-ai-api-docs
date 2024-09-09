@@ -1,7 +1,4 @@
-# Allow access to all paths except /music/_dir
-
 User-agent: *
-Disallow: /music/_dir
 
 Sitemap: https://sunoapi.co/sitemap.xml
 
