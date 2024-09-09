@@ -13,13 +13,15 @@
     font-weight: bold!important;
 }
 
+.title-collapsible-button{
+    font-weight: bold!important;
+}
+
+
 .docs-aside-tree li.bordered.active{
     border-color: var(--color-gray-900)!important;
 }
 
-.docs-aside-tree .link{
-    font-weight: bold!important;
-}
 .request-identifier{
     font-size: 14px;
     padding: 4px 8px;
