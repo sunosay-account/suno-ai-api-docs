@@ -1,6 +1,6 @@
 User-agent: *
 
-Sitemap: https://sunoapi.co/sitemap.xml
+Sitemap: https://sunosay.com/sitemap.xml
 
-Sitemap: https://docs.sunoapi.co/sitemap.xml
+Sitemap: https://docs.sunosay.com/sitemap.xml
 

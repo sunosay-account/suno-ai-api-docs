@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ssr: true,
   sourcemap: false,
   site: {
-    url: 'https://docs.sunoapi.co',
+    url: 'https://docs.sunosay.com',
     trailingSlash: false,
     name: 'SunoAPI Docs',
   },
