@@ -1,57 +1,27 @@
-# Docus Starter
+# Suno API Docs - The Suno AI 
 
-Starter template for [Docus](https://docus.dev).
+Welcome to the Suno API documentation!
 
-## Clone
+Currently Suno AI does not currently provide an API, we allow you to call into Suno AI's API via the Suno API
 
-Clone the repository (using `nuxi`):
+Discover more about us at [SunoAPI](https://sunosay.com)
 
-```bash
-npx nuxi init -t themes/docus
-```
+![Suno API Docs](
+https://github.com/sunosay-account/suno-ai-api-docs/blob/main/public/78d68c5b-96d2-46ef-a7a5-d4d999ff53c4.png)
 
-## Setup
+## Table of Content  
 
-Install dependencies:
+1. Introduction
+2. Quick Start Guide - teaches you how to create songs using the api.
+3. Generate Music Guide - More detailed documentation on specific features, such as:
+    - Generating custom songs
+	- Extending a song
+	- Generating Pure Music Songs
+    - Extending a pure music song
+4. Generate Lyrics Guide
+    - Generating Custom or Random Lyrics
+5. Rate Limiting and Status Code Guide
 
-```bash
-yarn install
-```
+## License
 
-## Development
-
-```bash
-yarn dev
-```
-
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
-
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+This project is licensed under the MIT License.

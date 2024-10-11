@@ -1,6 +1,9 @@
 {
-  "name": "docus-starter",
+  "name": "suno-ai-api-docs",
   "version": "0.1.0",
+  "license": "EPL-2.0 license",
+  "repository": "https://github.com/sunosay-account/suno-ai-api-docs",
+  "homepage": "https://docs.sunosay.com",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",

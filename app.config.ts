@@ -13,6 +13,9 @@ export default defineAppConfig({
       padded: true,
       fluid: true
     },
+    socials: {
+      github: 'https://github.com/sunosay-account/suno-ai-api-docs'
+    },
     header: {
       logo: false,
       title: 'Suno API Documentation',

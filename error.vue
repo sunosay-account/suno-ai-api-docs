@@ -6,7 +6,6 @@
       404 | Pages Not Found
     </h1>
     <a href="/" class="mx-auto uppercase font-sans font-bold tracking-[0.2rem] rounded-full text-sm gap-x-3 px-6 py-3 shadow-sm text-white dark:text-gray-900 bg-gray-900 hover:bg-gray-800  dark:bg-white dark:hover:bg-gray-100 dark:disabled:bg-white f inline-flex items-center max-w-fit">
-      <!-- <Icon name="i-heroicons-home" class=" flex-shrink-0 h-5 w-5"></Icon> -->
       <span>Home</span>
     </a>
   </div>
