@@ -24,4 +24,4 @@ https://github.com/sunosay-account/suno-ai-api-docs/blob/main/public/78d68c5b-96
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the EPL-2.0 license License.
