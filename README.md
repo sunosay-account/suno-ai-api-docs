@@ -4,7 +4,7 @@ Welcome to the Suno API documentation!
 
 Currently Suno AI does not currently provide an API, we allow you to call into Suno AI's API via the Suno API
 
-Discover more about us at [SunoAPI](https://sunosay.com)
+Discover more about us at [Suno API Docs](https://docs.sunosay.com)
 
 Join [Discord](https://discord.gg/EkeGyXbRJY) to learn about the latest Suno API features or FAQs!
 
